@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# YOLOv8 model weights (auto-downloaded on first run)
+*.pt
+!yolov8n.pt   # keep the nano weights if you commit them
+
+# Uploaded / processed files (user-specific, not for repo)
+uploads/*
+outputs/*
+!uploads/.gitkeep
+!outputs/.gitkeep
+
+# Ultralytics run output
+runs/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

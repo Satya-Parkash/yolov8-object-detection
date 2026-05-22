@@ -1,0 +1,16 @@
+[theme]
+# Streamlit dark theme configuration
+# Place this file at:  .streamlit/config.toml
+
+base            = "dark"
+primaryColor    = "#e94560"
+backgroundColor = "#0f0f1a"
+secondaryBackgroundColor = "#16213e"
+textColor       = "#ffffff"
+font            = "sans serif"
+
+[server]
+# Prevent Streamlit from auto-opening the browser on every run (optional)
+# headless = false
+maxUploadSize   = 200      # MB — allows large video uploads
+enableXsrfProtection = false
