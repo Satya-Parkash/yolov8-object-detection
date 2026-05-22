@@ -1,24 +1,6 @@
-# ============================================================
-# requirements.txt — YOLOv8 Object Detection App
-# ============================================================
-# Install all dependencies with:
-#   pip install -r requirements.txt
-# ============================================================
-
-# Core deep-learning / object-detection
-ultralytics>=8.0.0       # YOLOv8 (includes torch, torchvision)
-
-# Web UI
-streamlit>=1.32.0
-
-# Computer vision
-opencv-python>=4.8.0     # frame capture, drawing, video I/O
-
-# Image handling
-Pillow>=10.0.0           # PIL — image open/save, format conversion
-
-# Numerical computing
-numpy>=1.24.0            # array operations on frames
-
-# Data table display
-pandas>=2.0.0            # summary DataFrames in Streamlit
+ultralytics==8.0.196
+streamlit==1.32.0
+opencv-python-headless==4.8.1.78
+Pillow==10.0.0
+numpy==1.24.4
+pandas==2.0.3
